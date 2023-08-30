@@ -17,17 +17,17 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Is it Friday yet?
-  Everybody wants to know when it's Friday
+Feature: Is the number even?
+  I need to know if the number is even or not
 
-	@tag1
-  Scenario Outline: Today is or is not Friday
-    Given today is "<day>"
-    When I ask whether it's Friday yet
-    Then I should be told "<answer>"
+  @tag1
+  Scenario Outline: Title of your scenario outline
+    Given An integer <number>
+    When I check if it is even
+    Then The result should be "<answer>"
 
-  	Examples:
-    	| day            | answer |
-    	| Friday         | TGIF   |
-    	| Sunday         | Nope   |
-    	| anything else! | Nope   |
+    Examples: 
+      | number  | answer |
+      | 1 			| No     |
+      | 2				| Yes	   |
+      | 0 			| Yes    |

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CucumberExample.CucumberExample.RunCucumberTest" time="0.17" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CucumberExample.CucumberExample.RunCucumberTest" time="0.153" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\adamb\AppData\Local\Temp\surefire14794479196020660835\surefirebooter-20230829171540803_3.jar C:\Users\adamb\AppData\Local\Temp\surefire14794479196020660835 2023-08-29T17-15-40_599-jvmRun1 surefire-20230829171540803_1tmp surefire_0-20230829171540803_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\adamb\AppData\Local\Temp\surefire4832163935554339721\surefirebooter-20230830133503277_3.jar C:\Users\adamb\AppData\Local\Temp\surefire4832163935554339721 2023-08-30T13-35-03_156-jvmRun1 surefire-20230830133503277_1tmp surefire_0-20230830133503277_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\adamb\eclipse-workspace\CucumberExample\target\test-classes;C:\Users\adamb\eclipse-workspace\CucumberExample\target\classes;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\adamb\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\adamb\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\adamb\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\adamb\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\adamb\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.13.0\cucumber-junit-platform-engine-7.13.0.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\adamb\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-suite\1.9.3\junit-platform-suite-1.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.3\junit-platform-suite-api-1.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.3\junit-platform-suite-engine-1.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.3\junit-platform-suite-commons-1.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.3\junit-platform-launcher-1.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\adamb\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\adamb\AppData\Local\Temp\surefire14794479196020660835\surefirebooter-20230829171540803_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\adamb\AppData\Local\Temp\surefire4832163935554339721\surefirebooter-20230830133503277_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
@@ -56,28 +56,58 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Example #1.1" classname="Examples" time="0.057">
+  <testcase name="Example #1.1" classname="Examples" time="0.049">
     <system-out><![CDATA[
-Scenario Outline: Today is or is not Friday &amp#27;[90m# CucumberExample/CucumberExample/is_it_friday_yet.feature:11&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Friday"&amp#27;[0m                   &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"TGIF"&amp#27;[0m              &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+@tag @tag1
+Scenario Outline: Today is or is not Friday &amp#27;[90m# CucumberExample/CucumberExample/is_it_friday_yet.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Friday"&amp#27;[0m                   &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"TGIF"&amp#27;[0m              &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+@tag @tag1
+Scenario Outline: Title of your scenario outline &amp#27;[90m# CucumberExample/CucumberExample/is_number_even.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAn integer &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                             &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.an_integer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI check if it is even&amp#27;[0m                     &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.i_check_if_it_is_even()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"No"&amp#27;[0m                 &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.the_result_should_be(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
   <testcase name="Example #1.2" classname="Examples" time="0.003">
     <system-out><![CDATA[
-Scenario Outline: Today is or is not Friday &amp#27;[90m# CucumberExample/CucumberExample/is_it_friday_yet.feature:12&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sunday"&amp#27;[0m                   &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+@tag @tag1
+Scenario Outline: Today is or is not Friday &amp#27;[90m# CucumberExample/CucumberExample/is_it_friday_yet.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sunday"&amp#27;[0m                   &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+@tag @tag1
+Scenario Outline: Title of your scenario outline &amp#27;[90m# CucumberExample/CucumberExample/is_number_even.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAn integer &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                             &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.an_integer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI check if it is even&amp#27;[0m                     &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.i_check_if_it_is_even()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Yes"&amp#27;[0m                &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.the_result_should_be(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
   <testcase name="Example #1.3" classname="Examples" time="0.003">
     <system-out><![CDATA[
-Scenario Outline: Today is or is not Friday &amp#27;[90m# CucumberExample/CucumberExample/is_it_friday_yet.feature:13&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"anything else!"&amp#27;[0m           &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# CucumberExample.CucumberExample.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+@tag @tag1
+Scenario Outline: Today is or is not Friday &amp#27;[90m# CucumberExample/CucumberExample/is_it_friday_yet.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"anything else!"&amp#27;[0m           &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m        &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# CucumberExample.CucumberExample.TodayStepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.3" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+@tag @tag1
+Scenario Outline: Title of your scenario outline &amp#27;[90m# CucumberExample/CucumberExample/is_number_even.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAn integer &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                             &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.an_integer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI check if it is even&amp#27;[0m                     &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.i_check_if_it_is_even()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Yes"&amp#27;[0m                &amp#27;[90m# CucumberExample.CucumberExample.EvenNumberStepDefinitions.the_result_should_be(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
